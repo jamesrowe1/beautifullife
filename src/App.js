@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './Home.js';         // Your homepage component
 import Blog from './Blog.js';         // Blog component
 import GalleryPage from './GalleryPage.js'; // Gallery component
@@ -15,11 +15,11 @@ const App = () => {
         <header>
           <nav>
             <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/blog">Blog</Link></li>
-              <li><Link to="/gallery">Gallery</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
-              <li><Link to="/clientforms">Client Forms</Link></li>
+              <li><Link to="#/">Home</Link></li>
+              <li><Link to="#/blog">Blog</Link></li>
+              <li><Link to="#/gallery">Gallery</Link></li>
+              <li><Link to="#/contact">Contact</Link></li>
+              <li><Link to="#/clientforms">Client Forms</Link></li>
             </ul>
           </nav>
         </header>
