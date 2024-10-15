@@ -1,44 +1,54 @@
-/* Blog Section */
-.blog-section {
+.blog-container {
   padding: 40px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
-  gap: 20px;
-  background-color: rgba(255, 255, 255, 0.85); /* Soft background */
+  max-width: 900px; /* Maximum width to keep content centered */
+  margin: 0 auto; /* Center the blog posts */
+}
+
+.blog-post {
+  background-color: rgba(255, 250, 240, 0.9); /* A soft, calming background */
   border-radius: 12px;
+  margin: 20px 0;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for an elegant effect */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  font-family: 'Georgia', serif; /* A more elegant serif font */
 }
 
-.blog-card {
-  background-color: rgba(186, 218, 234, 0.7); /* Light pastel lavender */
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.blog-card:hover {
-  transform: translateY(-5px); /* Slight hover animation */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+.blog-post:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2); /* Enhanced shadow for hover */
 }
 
 .blog-title {
-  font-size: 1.8em; /* Larger title font */
-  color: #4A90E2; /* Contrast color */
-  margin-bottom: 10px;
+  font-size: 1.8rem;
+  color: #4A90E2; /* A soothing blue */
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 
-.blog-excerpt {
-  font-size: 1.1em; /* Readable font size */
-  color: #555; /* Neutral text color */
-  margin-bottom: 15px; /* Spacing below excerpt */
+.blog-content {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
 }
 
 .blog-date {
-  font-size: 0.9em; /* Smaller date font */
-  color: #999; /* Lighter color for date */
-  margin-top: auto; /* Push date to the bottom */
-  text-align: right; /* Align date to the right */
+  font-size: 1rem;
+  color: #888;
+  margin-top: 10px;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .blog-container {
+    padding: 20px;
+  }
+
+  .blog-post {
+    padding: 20px;
+  }
+
+  .blog-title {
+    font-size: 1.5rem;
+  }
 }
