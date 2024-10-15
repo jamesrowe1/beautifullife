@@ -1,0 +1,30 @@
+.hero-container {
+    /*background-image: url('hero-background.jpg'); /* Replace with your own image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .overlay {
+    /*background-color: rgba(0, 0, 0, 0.6);*/
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    border-radius: 15px;
+  }
+  
+  .hero-title {
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  

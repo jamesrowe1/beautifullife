@@ -1,0 +1,44 @@
+/* Blog Section */
+.blog-section {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.85); /* Soft background */
+  border-radius: 12px;
+}
+
+.blog-card {
+  background-color: rgba(186, 218, 234, 0.7); /* Light pastel lavender */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px); /* Slight hover animation */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.blog-title {
+  font-size: 1.8em; /* Larger title font */
+  color: #4A90E2; /* Contrast color */
+  margin-bottom: 10px;
+}
+
+.blog-excerpt {
+  font-size: 1.1em; /* Readable font size */
+  color: #555; /* Neutral text color */
+  margin-bottom: 15px; /* Spacing below excerpt */
+}
+
+.blog-date {
+  font-size: 0.9em; /* Smaller date font */
+  color: #999; /* Lighter color for date */
+  margin-top: auto; /* Push date to the bottom */
+  text-align: right; /* Align date to the right */
+}

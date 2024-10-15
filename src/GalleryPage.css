@@ -1,0 +1,30 @@
+/* Gallery Page */
+.gallery-page {
+  /*background-color: rgba(255, 255, 255, 0.85);*/
+  padding: 50px 30px;
+  border-radius: 12px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-page h2 {
+  color: #FF5733 ;
+  font-size: 2.2em;
+  margin-bottom: 30px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.gallery-image {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
