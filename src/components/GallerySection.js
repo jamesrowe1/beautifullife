@@ -2,7 +2,7 @@ import React from 'react';
 
 function GallerySection() {
   const images = [
-    `${process.env.PUBLIC_URL}/images/art1.jpg`, // Replace with actual image paths
+    '/public/images/art1.jpg', // Replace with actual image paths
     `${process.env.PUBLIC_URL}/images/art2.jpg`,
     `${process.env.PUBLIC_URL}/images/art3.jpg`,
   ];
@@ -18,7 +18,9 @@ function GallerySection() {
           </div>
         ))}
       </div>
+      <img src="./public/images/art1.jpg" alt="Art piece 1" />
     </div>
+    
   );
 }
 

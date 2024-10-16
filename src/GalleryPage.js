@@ -3,9 +3,9 @@ import './GalleryPage.css'
 
 const GalleryPage = () => {
   const images = [
-    '/image1.jpg',  // Replace with actual image paths
-    '/image2.jpg',
-    '/image3.jpg',
+    `${process.env.PUBLIC_URL}/images/art1.jpg`,  // Replace with actual image paths
+    `${process.env.PUBLIC_URL}/images/art2.jpg`,
+    `${process.env.PUBLIC_URL}/images/art3.jpg`,
   ];
 
   return (
