@@ -16,9 +16,17 @@ const ContactPage = () => {
   };
 
   return (
+    
     <div className="contact-page">
       <h2>Contact Us</h2>
-      <form onSubmit={handleSubmit} className="contact-form">
+      <iframe title="contactform" src="https://docs.google.com/forms/d/e/1FAIpQLSdfE3HQxVTEJ0mNrSAa_VDFJxNgNe3qOxkO40n9EFwke0nPRA/viewform?embedded=true" 
+      width="640" 
+      height="687" 
+      frameborder="0" 
+      marginheight="0" 
+      marginwidth="0"
+      scrolling="no">Loading…</iframe>
+      {/* <form onSubmit={handleSubmit} className="contact-form">
         <input
           type="text"
           name="name"
@@ -43,7 +51,7 @@ const ContactPage = () => {
           required
         />
         <button type="submit">Send Message</button>
-      </form>
+      </form> */}
     </div>
   );
 };
