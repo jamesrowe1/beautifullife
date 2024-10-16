@@ -18,7 +18,7 @@ const ContactPage = () => {
   return (
     
     <div className="contact-page">
-      <h2>Contact Us</h2>
+      <h2>If you'd like to make an appointment, please fill out the form below and we will get back to you shortly.</h2>
       <iframe title="contactform" src="https://docs.google.com/forms/d/e/1FAIpQLSdfE3HQxVTEJ0mNrSAa_VDFJxNgNe3qOxkO40n9EFwke0nPRA/viewform?embedded=true" 
       width="640" 
       height="687" 
