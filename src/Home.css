@@ -23,6 +23,8 @@
     margin-bottom: 20px;
   }
 
+
+
   .benefits-section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
@@ -36,6 +38,7 @@
   .benefit-item {
     background-color: rgba(186, 218, 234, 0.7); /* Light pastel lavender with transparency */
     padding: 20px;
+    margin: 10px auto;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -71,3 +74,10 @@
     padding: 0 10px;
   }
   
+  @media (max-width: 480px) {
+    .benefits-section {
+      
+      padding: 20px;
+      
+    }
+  }
