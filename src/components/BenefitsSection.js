@@ -4,22 +4,22 @@ import './BenefitsSection.css';
 const Benefits = () => {
   const benefitsData = [
     {
-      icon: '/images/relaxation-icon.svg',
+      icon: `${process.env.PUBLIC_URL}/images/relaxation-icon.svg`,
       title: 'Improves Relaxation',
       description: 'Art therapy helps children express emotions and unwind in a calming, creative environment.'
     },
     {
-      icon: '/images/self-esteem-icon.svg',
+      icon: `${process.env.PUBLIC_URL}/images/self-esteem-icon.svg`,
       title: 'Boosts Self-Esteem',
       description: 'Engaging in creative activities builds confidence and encourages self-expression.'
     },
     {
-      icon: '/images/emotion-icon.svg',
+      icon: `${process.env.PUBLIC_URL}/images/emotion-icon.svg`,
       title: 'Enhances Emotional Expression',
       description: 'Children learn to channel their emotions into artistic works, helping them process feelings in a positive way.'
     },
     {
-      icon: '/images/creativity-icon.svg',
+      icon: `${process.env.PUBLIC_URL}/images/creativity-icon.svg`,
       title: 'Stimulates Creativity',
       description: 'Our therapy sessions encourage imagination and originality, fostering a love for art.'
     },
