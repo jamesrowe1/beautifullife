@@ -34,11 +34,11 @@ const Footer = () => {
         <div className="footer-links">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/gallery">Gallery</a></li>
-            <li><a href="/contact">Contact Us</a></li>
-            <li><a href="/blog">Blog</a></li>
+            <li><a href="#/">Home</a></li>
+            <li><a href="#/gallery">Gallery</a></li>
+            <li><a href="#/contact">Contact Us</a></li>
+            <li><a href="#/blog">Blog</a></li>
+            <li><a href="#/clientforms">Client Forms</a></li>
           </ul>
         </div>
 
