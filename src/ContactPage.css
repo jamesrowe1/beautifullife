@@ -49,3 +49,10 @@
 .contact-form button:hover {
   background-color: #45a049;
 }
+
+@media screen and (max-width:767px) {
+  iframe[src*="google.com/forms"] {
+      width: 100% !important;
+      height: 800px;
+  }
+  }
