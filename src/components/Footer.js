@@ -2,6 +2,9 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = () => {
+  const handleClick = () => {
+    window.scrollTo(0, 0);  // Scroll to the top of the page
+  };
   return (
     <footer className="footer">
       <div className="footer-content">
@@ -34,11 +37,11 @@ const Footer = () => {
         <div className="footer-links">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="#/">Home</a></li>
-            <li><a href="#/gallery">Gallery</a></li>
-            <li><a href="#/contact">Contact Us</a></li>
-            <li><a href="#/blog">Blog</a></li>
-            <li><a href="#/clientforms">Client Forms</a></li>
+            <li><a href="#/" onClick={handleClick}>Home</a></li>
+            <li><a href="#/gallery" onClick={handleClick}>Gallery</a></li>
+            <li><a href="#/contact" onClick={handleClick}>Contact Us</a></li>
+            <li><a href="#/blog" onClick={handleClick}>Blog</a></li>
+            <li><a href="#/clientforms" onClick={handleClick}>Client Forms</a></li>
           </ul>
         </div>
 

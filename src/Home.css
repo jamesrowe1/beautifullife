@@ -1,7 +1,7 @@
 /* Home Page */
 .home-page {
     /*background-color: rgba(255, 255, 255, 0.85); /* Soft overall background for the page */
-    padding: 40px 30px;
+    padding: 20px 30px;
     border-radius: 12px;
     margin: 20px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
@@ -14,6 +14,15 @@
     margin-bottom: 20px;
   }
   
+  .homepage-image {
+    max-width: 80%; /* Adjust width to fit well on the page */
+    height: auto;
+    margin: 0 auto; /* Center the image */
+    display: block;
+    border-radius: 10px; /* Optional: Rounded corners for the image */
+    margin-bottom: 20px;
+  }
+
   .benefits-section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
