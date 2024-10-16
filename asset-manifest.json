@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/beautifullife/static/css/main.379e85bb.css",
-    "main.js": "/beautifullife/static/js/main.66c133e7.js",
+    "main.css": "/beautifullife/static/css/main.a45720fb.css",
+    "main.js": "/beautifullife/static/js/main.f40b20f1.js",
     "static/js/453.0cf6a36b.chunk.js": "/beautifullife/static/js/453.0cf6a36b.chunk.js",
     "static/media/hero-background.jpg": "/beautifullife/static/media/hero-background.1fbcb91fcbcafe3a159b.jpg",
     "index.html": "/beautifullife/index.html",
-    "main.379e85bb.css.map": "/beautifullife/static/css/main.379e85bb.css.map",
-    "main.66c133e7.js.map": "/beautifullife/static/js/main.66c133e7.js.map",
+    "main.a45720fb.css.map": "/beautifullife/static/css/main.a45720fb.css.map",
+    "main.f40b20f1.js.map": "/beautifullife/static/js/main.f40b20f1.js.map",
     "453.0cf6a36b.chunk.js.map": "/beautifullife/static/js/453.0cf6a36b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.379e85bb.css",
-    "static/js/main.66c133e7.js"
+    "static/css/main.a45720fb.css",
+    "static/js/main.f40b20f1.js"
   ]
 }
